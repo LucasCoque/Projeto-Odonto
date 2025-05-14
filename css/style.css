@@ -1,0 +1,111 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+   
+}
+h2, h3, h4, h5, h6{
+    font-family: "Lobster", sans-serif;
+}
+ 
+.site {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ 
+header {
+    height: 90px;
+    /* Altura */
+    width: 100%;
+    /* Largura */
+    background: rgb(38, 56, 90);
+    .titulo{
+        font-size: 27px;
+        font-family: "Oswald", sans-serif;
+        color: beige;
+        margin: 15px 0;
+    }
+    .site {
+        display: flex;
+        justify-content: space-between;
+ 
+        h1 {
+            width: 280px;
+            height: 120px;
+            margin: 15px 0;
+        }
+        .logo{
+            width: 67px;
+            height: 67px;
+            align-items: center;
+            border-radius: 100%;
+        }
+
+        article {
+            margin: 15px 0;
+            width: 70%;
+            
+ 
+            div {
+                background: rgb(38, 56, 90);
+ 
+                display: flex;
+                justify-content: space-between;
+                height: 20px;
+ 
+                p {
+                    margin: auto;
+                    color: rgb(255, 255, 255);
+                }
+ 
+                div {
+                    img {
+                        height: 40px;
+                        width: 40px;
+                        margin: 5px;
+                    }
+                }
+            }
+ 
+            nav ul {
+                display: flex;
+                justify-content: space-between;
+                height: auto;
+                font-family: "Anton", sans-serif;
+                font-size: 18px;
+                text-transform: uppercase;
+ 
+ 
+                li {
+                    margin: auto;
+                    align-items: center;
+                   
+                    a {
+                        color: white;
+                        text-decoration: none;
+                    }
+ 
+                    a:hover {
+                        color: rgb(221, 219, 219);
+                    }
+                }
+            }
+        }
+    }
+}
+main{
+    
+    .banner{
+        width: 100%;
+        height: 400px;
+        background: rgb(128, 128, 128);
+        img{
+            width: 100%;
+        height: 420px;
+        }
+    }
+    
+}
